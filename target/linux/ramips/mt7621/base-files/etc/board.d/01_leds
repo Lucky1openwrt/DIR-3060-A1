@@ -27,6 +27,12 @@ dlink,dir-2640-a1|\
 dlink,dir-2660-a1)
 	ucidef_set_led_netdev "wan" "wan" "white:net" "wan"
 	;;
+dlink,dir-3060-a1)
+	ucidef_set_led_netdev "wan" "wan" "white:net" "wan"
+	ucidef_set_led_netdev "wlan2g" "WiFi 2.4GHz" "white:wlan2g" "wlan0"
+	ucidef_set_led_netdev "wlan5ghb" "WiFi 5GHzHB" "white:wlan5ghb" "wlan1"
+	ucidef_set_led_netdev "wlan5glb" "WiFi 5GHzLB" "white:wlan5glb" "wlan2"	
+	;;
 dlink,dir-860l-b1|\
 dlink,dir-867-a1|\
 dlink,dir-878-a1|\
